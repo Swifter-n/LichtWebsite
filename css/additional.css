@@ -1,0 +1,358 @@
+*{margin: 0;padding: 0}
+body {
+	background: #302304;
+}
+header p{font-family: 'Teko';font-weight: bold; font-size: 90px; color: #fed330}
+header h2{background: #ffde15; padding: 5px;display: inline-block;color: #312306;font-family: 'Courgette';font-weight: bold;}
+#slide{width: 100%;}
+
+
+#project h3{color: #ffde15}
+#project .form-group p{color: #ffde15}
+#project .btn-primary{width: 20%;margin-bottom: 5%;}
+
+.panel-group{margin-top: 70px}
+#project{margin-top: 20%;}
+
+.full-page {
+    display: table;
+    position: relative;
+    padding-top: 8%;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+#menu{margin-bottom: 40px;}
+#menu img{cursor: pointer;margin-bottom: 20px}
+#menu .h1, h1{color: #fff}
+#about {
+    background: url(../img/about.jpg) no-repeat center center scroll;
+
+}
+
+#about p{font-family: 'Bellefair', cursive;font-size: 24px;text-align: justify;}
+#services {
+	background: #6d654e;
+}
+#services h2{font-family: 'Gloria Hallelujah', cursive;margin-bottom: 20px}
+
+#services h4{font-family: 'Roboto', cursive;}
+#services img{margin-top: -20px}
+#services p{font-family: 'Roboto', sans-serif;}
+
+#portfolio {
+	background: linear-gradient(180deg, #6d654e 50%, #fff 50%);
+}
+
+#contact {
+	background: #6d654e;
+	/*background: url(../img/about.jpg) no-repeat 50% 50% scroll, linear-gradient(90deg, #6d654e 50%, #000 50%);*/
+}
+
+#map {
+	background: #ffffff;
+}
+
+.asd {
+	background: red;
+    height: initial;
+}
+
+.head-text {
+	color: #302304;
+	/*float: left;*/
+	display: inline;
+	background: #ffde16;
+	padding: 2px 5px;
+}
+
+.title-text {
+	color: #fff;
+}
+
+.subtitle-text {
+	color: #ffde16;
+}
+
+.btn-sidemenu {
+    border-radius: 0;
+    color: #302304;
+    background-color: #ffde16;
+}
+
+.btn-sidemenu:hover,
+.btn-sidemenu:focus,
+.btn-sidemenu:active {
+    color: #ffde16;
+    background-color: #302304;
+}
+
+#logo-licht {
+    position: fixed;
+    z-index: 100;
+    top: 1%;
+    left: 1%;
+ 
+}
+
+#scroll-down {
+	text-decoration: none;
+	position:fixed;
+	bottom:5%;
+	right:2%;
+	color:white;
+	transform:rotate(270deg);
+	transform-origin:left top 0;
+	float:left;
+	font-size:18px;
+	z-index:100;
+}
+
+#sidebar-wrapper {
+    background: #ffde16;
+    width: 300px;
+    margin-right: -300px;
+}
+
+#sidebar-wrapper.active {
+    right: 300px;
+    width: 300px;
+}
+
+.sidebar-nav {
+	width: 300px;
+	top: 25%;
+}
+
+.sidebar-nav li {
+	font-size: 30px;
+	font-weight: 900;
+	padding-left: 20px;
+}
+
+.sidebar-nav li:hover {
+    text-decoration: none;
+    color: #d6b913;
+    background: #302304;
+}
+
+.sidebar-nav li a {
+	border-bottom: 1px solid #d6b913;
+	color: #302304;
+	margin-top: 10px;
+}
+
+.sidebar-nav li a:hover {
+	margin-left: 20px;
+	border: none;
+	background: inherit;
+	color: inherit;
+}
+
+/*BOTTOM SIDEBAR*/
+
+#sidebar-wrapper .sidebar-bottom {
+    position: absolute;
+	list-style: none;
+	width: 300px;
+	bottom: 6%;
+	margin-top: 10px;
+	left: 10%;
+}
+
+.sidebar-bottom li {
+	/*display: inline;*/
+	font-size: 20px;
+}
+
+.sidebar-bottom li a {
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.socmed {
+	/*text-indent: 5%;*/
+    /*display: inline-block;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    padding-top: 10px;
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*border-radius: 100px;*/
+    color: #d6b913;
+    /*background: #302304;*/
+}
+
+.socmed:hover {
+    /*border: 1px solid #302304;*/
+    /*background: #ffde16;*/
+    color: #302304;
+}
+
+.soc-out {
+    color: #302304;
+}
+.soc-in {
+	color: #d6b913;
+}
+
+.soc-in:hover {
+    color: #302304;
+}
+
+
+/*FOOTER SIDEBAR*/
+.sidebar-footer {
+	position: absolute;
+	bottom: 4%;
+	text-align: center;
+	width: 100%;
+}
+.sidebar-bottom li {
+	display: inline;
+}
+
+.header {
+	background: url(../img/back.png) no-repeat center center scroll;
+	width: 100%;
+}
+
+.map .title-text {
+	color: #302304;
+}
+
+.map {
+	color: #000000
+}
+
+.social-bottom {
+	list-style: none;
+	width: 300px;
+	bottom: 10%;
+	margin-top: 10px;
+}
+
+.social-bottom li {
+	display: inline;
+	font-size: 20px;
+}
+
+.social-bottom li a {
+	text-decoration: none;
+	margin-left: 10px;
+}
+.social {
+	color: #ffffff;
+}
+
+.btn-form {
+	padding: 10px 25px;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #302304;
+}
+
+.form-control {
+	border-color: #000000;
+	padding-top: 20px 10px;
+	font-size: 20px;
+	border-radius: 2px;
+}
+
+#menu-toggle{
+	right: 11px;
+}
+
+#member .social-bottom{
+	margin-top: -10px;
+	position: relative;
+	left: 22%;
+}
+
+@media screen and (max-width: 600px) {
+  #member {
+    width: 100%;
+  }
+}
+
+
+#link{background: rgba(75, 101, 132,0.6);color:#fff;text-decoration: none;padding: 10px;display: inline-block;font-weight: bold;font-size: 18px;font-family: 'Roboto', sans-serif;border-radius: 10px}
+#link:hover{background: #f1c40f;-webkit-transition: background 2s linear;
+-moz-transition: background 1s linear;
+-ms-transition: background 1s linear;
+-o-transition: background 1s linear;
+transition: background 1s linear;}
+
+footer {
+	padding: 5px;
+	background: #ffffff;
+}
+#subfoot{background-color: #FCF9F9;}
+#subfoot .footLeft ul{list-style: none;}
+#subfoot .footLeft{padding-top: 5%;}
+#subfoot .footRight{padding-top: 20%;}
+
+#product{background: #FCF9F9;height: 100%;}
+#pilih{background: #fff;}
+
+#about .accordion {
+  background-color: #ffde15;
+  color: #333;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#about .active, .accordion:hover {
+  background-color: #ffde15;
+}
+
+#about .accordion:after {
+  content: '\002B';
+  color: #333;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#about .active:after {
+  content: "\2212";
+}
+
+#about .panel {
+  padding: 0 18px;
+  background-color: #ffde15;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: 'Roboto', cursive;
+  color: #333;
+}
+
+#about .panel p{
+	font-size: 15px;
+}
+
+#about .panel ol{
+	padding: 0 5%; 
+}
+
+
+
+
+
+
+
+
+
+
